@@ -18,7 +18,7 @@
 */
 
 #if defined(BOARD_ID_Productivity_P1_100)
-  #include "board_definitions_Productivity_P1_100.h"
+  #include "board_definitions_Productivity_Custom.h"
 #else
   #error You must define a BOARD_ID and add the corresponding definitions in board_definitions.h
 #endif

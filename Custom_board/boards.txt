@@ -17,7 +17,7 @@
 
 # Productivity P1-100
 # ---------------
-P1-100.name=Productivity P1-100
+P1-100.name=Custom
 P1-100.vid.0=0x1354
 P1-100.pid.0=0x4000
 P1-100.vid.1=0x1354
@@ -31,8 +31,8 @@ P1-100.upload.wait_for_upload_port=true
 P1-100.upload.native_usb=true
 P1-100.build.mcu=cortex-m0plus
 P1-100.build.f_cpu=48000000L
-P1-100.build.usb_product="Productivity P1-100"
-P1-100.build.usb_manufacturer="Automation Direct"
+P1-100.build.usb_product="Custom Board"
+P1-100.build.usb_manufacturer="none"
 P1-100.build.board=SAMD_P1-100
 P1-100.build.core=arduino
 P1-100.build.extra_flags=-DUSE_ARDUINO_MKR_PIN_LAYOUT -D__SAMD21G18A__ {build.usb_flags}

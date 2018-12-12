@@ -19,8 +19,8 @@
 # For more info:
 # https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
 
-name=P1-100
-version=1.6.20
+name=Custom
+version=0.0.1
 
 # Compile variables
 # -----------------
