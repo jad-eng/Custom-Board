@@ -23,6 +23,7 @@
           "boards": [
             {
               "name": "Custom"
+			}
           ],
           "toolsDependencies":
           [
