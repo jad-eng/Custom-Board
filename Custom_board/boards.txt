@@ -15,32 +15,29 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 
-# Productivity P1-100
+# Arduino MKRZero
 # ---------------
-P1-100.name=Custom
-P1-100.vid.0=0x1354
-P1-100.pid.0=0x4000
-P1-100.vid.1=0x1354
-P1-100.pid.1=0x4000
+Custom.name=Custom
+Custom.vid.0=0x1654
+Custom.pid.0=0x4000
 
-P1-100.upload.tool=bossac
-P1-100.upload.protocol=sam-ba
-P1-100.upload.maximum_size=262144
-P1-100.upload.use_1200bps_touch=true
-P1-100.upload.wait_for_upload_port=true
-P1-100.upload.native_usb=true
-P1-100.build.mcu=cortex-m0plus
-P1-100.build.f_cpu=48000000L
-P1-100.build.usb_product="Custom Board"
-P1-100.build.usb_manufacturer="none"
-P1-100.build.board=SAMD_P1-100
-P1-100.build.core=arduino
-P1-100.build.extra_flags=-DUSE_ARDUINO_MKR_PIN_LAYOUT -D__SAMD21G18A__ {build.usb_flags}
-P1-100.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
-P1-100.build.openocdscript=openocd_scripts/arduino_zero.cfg
-P1-100.build.variant=P1-100
-P1-100.build.vid=0x1354
-P1-100.build.pid=0x4000
-P1-100.bootloader.tool=openocd
-P1-100.bootloader.file=P1-100/samd21_sam_ba_arduino_P1-100.bin
-
+Custom.upload.tool=bossac
+Custom.upload.protocol=sam-ba
+Custom.upload.maximum_size=262144
+Custom.upload.use_1200bps_touch=true
+Custom.upload.wait_for_upload_port=true
+Custom.upload.native_usb=true
+Custom.build.mcu=cortex-m0plus
+Custom.build.f_cpu=48000000L
+Custom.build.usb_product="Arduino MKRZero"
+Custom.build.usb_manufacturer="Arduino LLC"
+Custom.build.board=SAMD_MKRZERO
+Custom.build.core=arduino
+Custom.build.extra_flags=-DUSE_ARDUINO_MKR_PIN_LAYOUT -D__SAMD21G18A__ {build.usb_flags}
+Custom.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+Custom.build.openocdscript=openocd_scripts/arduino_zero.cfg
+Custom.build.variant=mkrzero
+Custom.build.vid=0x2341
+Custom.build.pid=0x804f
+Custom.bootloader.tool=openocd
+Custom.bootloader.file=mkrzero/samd21_sam_ba_arduino_mkrzero.bin
