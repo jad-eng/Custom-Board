@@ -16,7 +16,7 @@
           "architecture": "samd",
           "version": "0.0.1",
           "category": "Contributed",
-          "url": "https://github.com/kumataru/Custom-Board/blob/master/Custom_board.tar.bz2",
+          "url": "https://github.com/kumataru/Custom-Board/raw/master/Custom_board.tar.bz2",
           "archiveFileName": "bootloaders.tar.bz2",
           "checksum": "SHA-256:FF5D20545269763191A58B84FD04D330B53596E83CC149630D9DBF7F52FEC27A",
           "size": "3916",
