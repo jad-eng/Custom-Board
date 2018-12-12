@@ -1,0 +1,58 @@
+{
+  "packages":
+  [
+    {
+      "name": "P1-100",
+      "maintainer": "Automation Direct",
+      #"websiteURL": "https://github.com/AdamCummick/P1-100-Private",
+		"email": ""
+      "help":
+      {
+        "online": ""
+      },
+      "platforms":
+      [
+        {
+          "name": "Productivity P1-100",
+          "architecture": "samd",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "",
+          "archiveFileName": "P1_100.tar.bz2",
+          "checksum": "SHA-256:48F907CD55A09DB3CDD9A9E685F59FE23DC59E8ADAC493E0DFAF4314F7B5592A",
+          "size": "1814207",
+          "boards": [
+            {
+              "name": "Productivity P1-100"
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
