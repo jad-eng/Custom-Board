@@ -19,7 +19,7 @@
           "url": "https://github.com/kumataru/Custom-Board/blob/master/Custom_board/bootloaders.tar.bz2",
           "archiveFileName": "bootloaders.tar.bz2",
           "checksum": "SHA-256:A20AF0C3D77DA2B45210631C0BB17B33371605E937EDABD53263FB9E29CE599E",
-          "size": "1814207",
+          "size": "3178206",
           "boards": [
             {
               "name": "Custom"
