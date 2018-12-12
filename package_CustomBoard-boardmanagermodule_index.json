@@ -18,7 +18,7 @@
           "category": "Contributed",
           "url": "https://github.com/kumataru/Custom-Board/raw/master/Custom_board.tar.bz2",
           "archiveFileName": "bootloaders.tar.bz2",
-          "checksum": "SHA-256:FF5D20545269763191A58B84FD04D330B53596E83CC149630D9DBF7F52FEC27A",
+          "checksum": "SHA-256:E4C6E20FEB452429E485C30E878CDF84E43FD654F69CF9C3D6B2498B5B1DF3E1",
           "size": "3916",
           "boards": [
             {
