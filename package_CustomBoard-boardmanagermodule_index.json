@@ -2,28 +2,28 @@
   "packages":
   [
     {
-      "name": "P1-100",
-      "maintainer": "Automation Direct",
-      "websiteURL": "",
-		"email": ""
+      "name": "None",
+      "maintainer": "None",
+      "websiteURL": "None",
+		"email": "None"
       "help":
       {
-        "online": ""
+        "online": "None"
       },
       "platforms":
       [
         {
-          "name": "Productivity P1-100",
+          "name": "None",
           "architecture": "samd",
           "version": "0.0.1",
           "category": "Contributed",
-          "url": "",
-          "archiveFileName": "P1_100.tar.bz2",
-          "checksum": "SHA-256:48F907CD55A09DB3CDD9A9E685F59FE23DC59E8ADAC493E0DFAF4314F7B5592A",
+          "url": "https://github.com/kumataru/Custom-Board/blob/master/Custom_board/bootloaders.tar.bz2",
+          "archiveFileName": "bootloaders.tar.bz2",
+          "checksum": "SHA-256:A20AF0C3D77DA2B45210631C0BB17B33371605E937EDABD53263FB9E29CE599E",
           "size": "1814207",
           "boards": [
             {
-              "name": "Productivity P1-100"
+              "name": "Custom"
           ],
           "toolsDependencies":
           [
