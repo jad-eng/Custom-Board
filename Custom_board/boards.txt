@@ -18,8 +18,8 @@
 # Arduino MKRZero
 # ---------------
 Custom.name=Custom
-Custom.vid.0=0x1654
-Custom.pid.0=0x4000
+#Custom.vid.0=0x1354
+#Custom.pid.0=0x4000
 
 Custom.upload.tool=bossac
 Custom.upload.protocol=sam-ba
